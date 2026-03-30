@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(153, 226, 153);
+    background-image: url("./herbe.png");
+    background-repeat: repeat;
+    background-size: 128px;
+    image-rendering: pixelated;
+}
+
+.title {
+    font-family: "Courier New", Courier, monospace;
+    background-color: rgb(255, 255, 255);
+}
+
+.hero-image {
+    width: 128px;
+    height: auto;
+    image-rendering: pixelated;
+}
